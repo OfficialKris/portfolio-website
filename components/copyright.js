@@ -1,4 +1,4 @@
-import styles from '../styles/utils.module.css'
+import styles from '../styles/Utils.module.css'
 
 export default function Copyright() {
     return (
