@@ -1,12 +1,20 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .grid {
-    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    position: relative;
   }
   
   .card {
+    position: relative;
     margin: 2rem;
     padding: 1.5rem;
     text-align: left;
@@ -17,6 +25,7 @@
     transition: color 0.15s ease, border-color 0.15s ease;
     max-width: 400px;
     min-height: 500px;
+    overflow: hidden;
   }
   
   .card:hover,
@@ -35,4 +44,19 @@
     margin: 2rem;
     font-size: 1.25rem;
     line-height: 1.5;
+  }
+
+  .card img {
+    z-index: 1;
+    opacity: 90%;
+    position: absolute
+  }
+
+ .content {
+    z-index: 2;
+    padding: .1rem 0;
+    position: relative;
+    background: rgba(255,255,255,.9);
+    background-blend-mode: overlay;
+    border-radius: 10px;
   }
