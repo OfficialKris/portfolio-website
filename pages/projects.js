@@ -1,7 +1,7 @@
+import styles from '../styles/Projects.module.css'
 import Back from '../components/back'
 import Card from '../components/card'
 import Copyright from '../components/copyright'
-import styles from '../styles/Projects.module.css'
 
 export default function Projects() {
     return (
@@ -24,4 +24,3 @@ export default function Projects() {
         </div>
     )
 }
-

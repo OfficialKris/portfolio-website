@@ -1,7 +1,7 @@
-import Back from '../components/back'
-import Copyright from '../components/copyright'
-import Skill from '../components/skill'
 import styles from '../styles/Skills.module.css'
+import Back from '../components/back'
+import Skill from '../components/skill'
+import Copyright from '../components/copyright'
 
 export default function Skills() {
     return (
