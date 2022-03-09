@@ -1,8 +1,9 @@
 .copyright {
-  color: #aaaaaa;
+  color: #d6d6d6;
   font-size: x-small;
   text-align: right;
-  padding: 1rem;
+  width: 100%;
+  padding: 1rem 2rem;
 }
 
 .back {

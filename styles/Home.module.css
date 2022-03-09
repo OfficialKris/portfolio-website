@@ -1,27 +1,37 @@
 .container {
   padding: 0;
+  margin: 0;
 }
 
 .main {
   padding: 0;
   flex: 1;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
 }
 
 .homeLeft {
-  min-width: 500px;
+  flex: 1;
+  max-height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 .homeRight {
   display: flex;
+  flex: 2;
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
+  min-width: 40%;
   border-radius: 40px 0 0 40px;
-  box-shadow: -20px 0 0 10px #e0e0e0;
+  box-shadow: -20px 0 0 0 #e0e0e0;
   background-color: #AAAAAA;
 }
 
@@ -36,7 +46,7 @@
 }
 
 .navbar a {
-  flex-grow: 1;
+  flex: 1;
 }
 
 .linkcurrent {
@@ -84,34 +94,42 @@
   font-size: 4rem;
 }
 
-.title,
 .description {
-  text-align: center;
-}
-
-.description {
-  display: flex;
   flex: 2;
-  align-content: center;
+  display: flex;
+  align-items: center;
   justify-content: center;
+  text-align: center;
   line-height: 1.5;
   font-size: 1.5rem;
-  height: 100%;
-  padding: 15% 15% 20% 15%;
   color: #fafafa;
 }
 
 .code {
-  background: #fafafa;
+  background: #eeeeee;
   color: black;
-  text-align: justify;
-  margin: 0 4rem;
+  text-align: center;
+  margin: 2rem;
+  padding: 1rem;
   line-height: 1.5;
   border-radius: 5px;
-  padding: 1rem;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.logos {
+  width: 100%;
+  padding: 4rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.logos img {
+  padding: 10rem;
 }
 
 @media (max-width: 600px) {
