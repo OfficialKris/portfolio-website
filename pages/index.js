@@ -35,12 +35,12 @@ export default function Home() {
 
           <p className={styles.description}>
             Christian Kuklis is a software engineer with skills in developing
-            websites, working with complex projects, and designing embedded systems.
+            websites, working on complex projects, and designing and coding embedded systems.
           </p>
 
           <div className={styles.logos}>
             <Image src="/images/github-logo.png" height={100} width={100} alt="GitHub logo"></Image>
-            <Image src="/images/wordpress-logo.png" height={60} width={200} alt="GitHub logo"></Image>
+            <Image src="/images/wordpress-logo.png" height={100} width={100} alt="GitHub logo"></Image>
             <Image src="/images/react-logo.png" height={100} width={100} alt="GitHub logo"></Image>
             <Image src="/images/nextjs-logo.png" height={100} width={100} alt="GitHub logo"></Image>
             <Image src="/images/sae-logo.png" height={100} width={100} alt="GitHub logo"></Image>

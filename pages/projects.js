@@ -8,17 +8,17 @@ export default function Projects() {
         <div className={styles.container}>
             <Back />
             <div className={styles.grid}>
-                <Card link="/projects/1/" image="/backgrounds/coding.jpg"
+                <Card link="/projects/" image="/backgrounds/coding.jpg"
                 heading="Portfolio Website &rarr;"
-                detail="Find out what tools were used to make this website!"></Card>
+                detail="Next.js, React, Vercel, Node.js, Git, HTML, CSS, and JavaScript"></Card>
                 
-                <Card link="/projects/2/" image="/backgrounds/drone.jpg"
+                <Card link="/projects/" image="/backgrounds/drone.jpg"
                 heading="Drone GPS & Mapping &rarr;"
-                detail="Discover the tools used to develop an autonomous drone!"></Card>
+                detail="GPS standard, Python, OpenCV, Machine Learning, and Project Management"></Card>
                 
-                <Card link="/projects/3/" image="/backgrounds/embedded.jpg"
+                <Card link="/projects/" image="/backgrounds/embedded.jpg"
                 heading="SAE Electrical System &rarr;"
-                detail="Dive deep into the electronics of a modern race car!"></Card>
+                detail="CAN, Arduino Coding, KiCad, and Embedded Electronics"></Card>
             </div>
             <Copyright />
         </div>
